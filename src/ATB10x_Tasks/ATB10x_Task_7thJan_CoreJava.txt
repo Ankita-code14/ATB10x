@@ -1,0 +1,54 @@
+1) What is Source Code?
+
+- Human understandable code written using High Level Programming language.
+- In java - NameOfFile.java 
+- Source code is something that human write . 
+- You have to follow the rules of the programming language.
+- Syntax - Rules that we have to follow. 
+
+
+**Source Code** (NameOfFile.java) ->  Byte Code. ( JVM Can understand) -> **Native Code **(Machine), 0,1
+
+
+
+2) What is Byte Code? 
+
+Source Code (NameOfFile.java) ->  Byte Code. ( JVM Can understand) -> Native Code (Machine), 0,1
+
+Bytecode is an intermediate, low-level representation of source code that is compiled and optimized for execution by a virtual machine (e.g., JVM in Java). 
+
+
+It is not directly readable by humans or machines but is platform-independent and executed efficiently by interpreters or just-in-time compilers.
+
+
+3) What is the native code?
+
+- Code which NATIVE to the OS.
+- Windows -NC -on window( .exe), dmg(mac), sh
+
+
+4) What is Java Compiler?
+
+Java Compiler is a program developed in C or C++ programming language with the name **“javac”**. It will check syntactic or grammatical errors of the programs. **It converts source code to byte code.** 
+
+
+5) What is JIT Compiler?
+JIT stands for Just-In-Time, and it's a compiler that improves the performance of Java applications. It does this by converting bytecode into native machine code while the program is running. 
+
+6) Difference between Compiler and interpreter?
+Compiler
+
+The compiler displays all issues after compilation.
+The compiler is based on the translation linking-loading paradigm
+The compiler requires the entire programme
+A compiler transforms high-level programming language code into machine code before a program’s execution.
+Computed code runs faster
+
+
+Interpreter
+
+the interpreter displays issues for specific lines.
+The Interpreter is based on the Interpretation Method.
+The interpreter only needs one line of code.
+In contrast, an interpreter transforms each high-level programme statement into machine code separately.
+interpreted code runs slower than computed.

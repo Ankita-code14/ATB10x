@@ -1,0 +1,34 @@
+Q.1 What is Java?
+
+Java is a high-level  object oriented programming language. It was developed by Sun Micro systems, initially released in 1995.
+
+Q.2 What are the features of Java?
+
+Simple
+Object-Oriented
+Portable
+Platform independent
+Secured
+Robust
+Architecture neutral
+Interpreted
+High Performance
+Multithreaded
+Distributed
+Dynamic
+
+
+Q.4 What is JDK? and its component 
+
+JDK stands for Java Development Kit. It is a software development kit that includes everything required to develop, debug, and run Java applications. JDK includes a Java compiler, the Java Virtual Machine (JVM), and other development tools.
+
+Components
+JDK includes several components, including the Java compiler, the Java Virtual Machine (JVM), Java Development Tools (such as javac, jar, and javadoc), and Java Runtime Environment (JRE).
+
+Q.5 Is JVM platform-independent?
+
+Yes, JVM is platform-independent. Because JVM interprets compiled Java bytecode, it can run on any platform that has a compatible JVM installed, regardless of the underlying hardware and operating system.
+
+Q.6 What is the difference between JDK and JRE?
+
+JDK includes the Java compiler and other development tools, which are not included in JRE. JRE, on the other hand, includes only the Java Virtual Machine (JVM) and other libraries required to run Java applications.

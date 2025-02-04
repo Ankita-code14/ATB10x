@@ -1,0 +1,25 @@
+1) what is statement in java?
+
+Java comments are **non-executable statements** used to provide explanations, annotations, or documentation within the code. 
+
+
+
+- Single Line  -> //
+- Multiple Line -> /** /
+
+
+2) different between print and println?
+println -> new line in the console
+
+print -> will not add.
+
+
+
+3) by default println use which data type to show the arithmetic result?
+Integer DataType
+
+4) what is The Difference between Keyword and identifiers? 
+check in Task 8th
+
+5) How many Keyword are there in java?
+53 Keywords
