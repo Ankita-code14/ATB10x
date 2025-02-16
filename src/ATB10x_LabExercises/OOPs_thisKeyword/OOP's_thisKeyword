@@ -1,0 +1,21 @@
+this ( Keyword)
+
+- this is a reference variable that refers to the current class object within an instance method or constructor. t1 -> this, t2 -> this, t3 -> this.
+- Accessing Instance Variables.
+- The `this`  keyword can only be used within instance methods and constructors.
+- Distinguishing Instance Variables from Parameters.
+
+
+-The this keyword in Java is a reference variable that refers to the current instance of the class.
+-It is mainly used to eliminate ambiguity when local and instance variables share the same name, among other use cases.
+
+
+✅ Where Is this NOT Allowed?
+❌ Static methods → Since this refers to an instance, you cannot use this in static methods, because they belong to the class, not a specific instance.
+
+
+1️⃣ Common Uses of this in Java
+1.1 Referring to Instance Variables
+1.2 Calling Another Constructor in the Same Class (this())
+1.3 Passing this as an Argument
+1.4 Returning the Current Instance (this)

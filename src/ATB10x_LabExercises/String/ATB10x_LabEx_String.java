@@ -1,4 +1,4 @@
-package ATB10x_LabExercises;
+package ATB10x_LabExercises.String;
 
 public class ATB10x_LabEx_String {
 
