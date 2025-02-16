@@ -5,6 +5,8 @@ public class ATB10x_LabEx_ParaCon_Car {
     String model;
     int year;
 
+
+    
     ATB10x_LabEx_ParaCon_Car(){
         System.out.println("Default Constructor");
     }
