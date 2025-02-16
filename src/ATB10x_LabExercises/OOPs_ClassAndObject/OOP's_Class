@@ -1,0 +1,25 @@
+**Class**
+
+Class -> blueprint / template to create something -> Person
+
+Real Objects - Instance of the class.
+
+
+fields, member variables or instance variables** ->  Attributes **
+
+member methods or instance methods -> **Behaviours**
+
+**Class**
+
+1. Attributes
+2. Behaviour
+3. _inner class_
+4. _static fields methods._
+
+
+Object-Oriented Programming is a **methodology or paradigm** to design a program using classes and objects.
+
+
+
+Class is a Blueprint / user-defined data type which defines its properties(attributes) and its methods(behaviours).
+
