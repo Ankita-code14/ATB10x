@@ -11,7 +11,8 @@ this ( Keyword)
 
 
 ✅ Where Is this NOT Allowed?
-❌ Static methods → Since this refers to an instance, you cannot use this in static methods, because they belong to the class, not a specific instance.
+❌ Static methods → Since this refers to an instance,
+you cannot use this in static methods, because they belong to the class, not a specific instance.
 
 
 1️⃣ Common Uses of this in Java
