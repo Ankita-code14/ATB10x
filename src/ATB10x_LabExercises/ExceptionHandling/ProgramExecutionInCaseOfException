@@ -1,0 +1,13 @@
+### **Program Execution in case of Exception**
+
+- `JVM will be Initialized (From RAM)`
+- `//Creates and Starts the main Thread. - Main Called`
+- `//1) Collects the Command Line Arguments - 10`
+- `// String[] args = {10} ->`
+- // 2) Lab204_Exception.main()
+//Now Control will be transferred from **main Thread to main method**
+// When problem comes in main -> JVM
+- // **If you don't handle the exception** JVM will handle it
+// **Always terminate the program with exception.**
+MT -> main thread (Thread, Labor -> main Method) Got it - G
+
