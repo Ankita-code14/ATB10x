@@ -1,0 +1,5 @@
+enum
+
+
+- an enum (short for enumeration) is a special data type that allows you to define a **collection of constants.**
+- Enums are useful for representing a fixed set of related values, such as days of the week, states in a process, or categories of items.
