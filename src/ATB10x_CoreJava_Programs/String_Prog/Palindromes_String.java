@@ -19,6 +19,7 @@ public class Palindromes_String {
     public void checkStringPalindrome(String str){
 
         String revStr = "";
+
         for(int i=str.length()-1; i>=0; i--){
             revStr = revStr + str.charAt(i);
         }

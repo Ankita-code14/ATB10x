@@ -41,8 +41,7 @@ public class Reverse_String {
 
     }
 
-    public void reverseStringUsingStringBuffer(String str)
-    {
+    public void reverseStringUsingStringBuffer(String str) {
         //StringBuffer is thread-safe.(slow)
 
         StringBuffer sb = new StringBuffer(str);
