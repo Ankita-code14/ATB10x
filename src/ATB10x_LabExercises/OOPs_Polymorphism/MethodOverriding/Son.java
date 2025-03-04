@@ -6,4 +6,11 @@ public class Son extends Father{
     public void home(){
         System.out.println("Son Home");
     }
+
+    private void salary(){
+        System.out.println("Son Salary");
+
+        //we can not override private method
+    }
+
 }
