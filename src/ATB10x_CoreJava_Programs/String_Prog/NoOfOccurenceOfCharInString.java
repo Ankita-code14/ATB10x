@@ -8,8 +8,9 @@ public class NoOfOccurenceOfCharInString {
 
         String str = "ankita is an automation developer";
 
-        //getOccurenceOfEachCharInString(str);
-        //replaceEachCharByNoOfTimeItOccurces(str);
+
+        getOccurenceOfEachCharInString(str);
+        replaceEachCharByNoOfTimeItOccurces(str);
 
         getCharOuccrenceNthTimeInString(str);
 

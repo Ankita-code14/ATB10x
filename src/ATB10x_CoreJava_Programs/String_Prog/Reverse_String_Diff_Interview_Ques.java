@@ -6,7 +6,7 @@ public class Reverse_String_Diff_Interview_Ques {
 
         String str = "My Name is aaa Ankita";
 
-        /*//Reverse Each Word of String - Using String Buffer/String Builder
+        //Reverse Each Word of String - Using String Buffer/String Builder
         reverseEachWordOfString_WithSB(str);
 
         //Reverse Each Word of String - Using For Loop
@@ -19,7 +19,7 @@ public class Reverse_String_Diff_Interview_Ques {
         reverseStringWithoutReversingOfWords_WithFor(str);
 
         //Reverse Each Alternate Word of String - Using String Builder/String Buffer
-        reverseEachAlternateWordOfString_WithSB(str);*/
+        reverseEachAlternateWordOfString_WithSB(str);
 
         //Reverse Each Alternate Word of String - Using For Loop
         reverseEachAlternateWordOfString_WithFor(str);
