@@ -8,12 +8,13 @@ public class NoOfOccurenceOfCharInString {
 
         String str = "ankita is an automation developer";
 
-
         getOccurenceOfEachCharInString(str);
+
         replaceEachCharByNoOfTimeItOccurces(str);
 
         getCharOuccrenceNthTimeInString(str);
 
+        printCharactersOccurOnlyOnce(str);
 
     }
 
@@ -82,4 +83,25 @@ public class NoOfOccurenceOfCharInString {
 
 
     }
+
+    public static void printCharactersOccurOnlyOnce(String str){
+
+        HashMap<Character, Integer> charMap = new HashMap<Character, Integer>();
+
+        for(char c : str.toCharArray()){
+            if(charMap.containsKey(c)){
+                charMap.put(c, charMap.get(c)+1);
+            }else
+                charMap.put(c, 1);
+        }
+
+        System.out.println("Characters occurs only once : ");
+        for(char c : str.toCharArray()){
+            if(charMap.get(c) == 1){
+                System.out.print(c + " ");
+            }
+        }
+    }
+
+
 }

@@ -1,4 +1,4 @@
-package ATB10x_CoreJava_Programs.InterviewQues;
+package ATB10x_CoreJava_Programs.InterviewQues.Exceptions;
 
 public class Bank {
 
