@@ -1,14 +1,19 @@
 package ATB10x_CoreJava_Programs.String_Prog;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class NoOfOccurenceOfCharInString {
 
     public static void main(String[] args){
 
-        String str = "ankita is an automation developer";
+        //String str = "ankita is an automation developer";
+
+        String str = "hello";
 
         getOccurenceOfEachCharInString(str);
+
+        getOuccrenceOfEachCharInStringPrintInOrder(str);
 
         replaceEachCharByNoOfTimeItOccurces(str);
 
@@ -101,6 +106,24 @@ public class NoOfOccurenceOfCharInString {
                 System.out.print(c + " ");
             }
         }
+    }
+
+    public static void getOuccrenceOfEachCharInStringPrintInOrder(String str){
+        char[] strArray = str.toCharArray();
+
+        //asked in Publicis Sapient company
+
+        LinkedHashMap<Character, Integer> charMap = new LinkedHashMap<Character, Integer>();
+
+        for(char c : strArray){
+            if(charMap.containsKey(c)){
+                charMap.put(c, charMap.get(c)+1);
+            }else{
+                charMap.put(c,1);
+            }
+        }
+
+        System.out.println(charMap);
     }
 
 
